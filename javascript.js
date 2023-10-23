@@ -1,3 +1,4 @@
+
 const freelancerList = document.getElementById("freelancer-list");
 const averagePriceElement = document.getElementById("average-price");
 const freelancers = [
@@ -42,4 +43,4 @@ intervalId = setInterval(function() {
 // Stop adding new freelancers after a certain time (e.g., 30 seconds)
 setTimeout(function() {
     clearInterval(intervalId);
-}, 1000);
+}, 5000);
